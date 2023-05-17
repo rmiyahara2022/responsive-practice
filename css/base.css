@@ -9,3 +9,213 @@ h1, h2, h3 {
 .question--title {
   font-size: 20px;
 }
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.center2{
+  overflow: hidden;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.txt-aln{
+  text-align: center;
+  line-height: 300px;
+  color: #000000;
+}
+
+/* Q1解答 */
+.q1-box{
+  width: 400px;
+  height: 400px;
+  background: #ff0000;
+}
+
+@media screen and (max-width: 960px) {
+  .q1-box {
+  width: 200px;
+  height: 200px;
+  background: #ff0000;
+  }
+ }
+
+ /* Q2解答 */
+ .q2-box{
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+ }
+
+ @media screen and (max-width: 960px) {
+  .q2-box {
+  width: 300px;
+  height: 300px;
+  background: #007bff;
+  }
+ }
+
+ /* Q3解答 */
+ .q3-box-a{
+  width: 300px;
+  height: 300px;
+  background: #008bff;
+ }
+
+.q3-box-b{
+  width: 300px;
+  height: 300px;
+  background: #22ff00;
+  margin-left: 150px;
+}
+
+@media screen and (max-width: 960px) {
+  .q3-box-b {
+    width: 300px;
+    height: 300px;
+    background: #22ff00;
+    margin-left: 50px;
+  }
+}
+
+/* Q4解答 */
+.q4-box-a{
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  float: left;
+}
+
+.q4-box-b{
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  .q4-box-a {
+    width: 300px;
+    height: 300px;
+    background: #ff0000;
+    float: none;
+  }
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Q5解答 */
+.q5-box{  
+  width: 300px;
+  height: 300px;
+}
+
+.q5-color-a{
+  background: #ff0000;
+}
+
+.q5-color-b{
+  background: #0008ff;
+}
+
+.q5-color-c{
+  background: #ff8400;
+}
+
+.q5-color-a::after {
+  content:"A";
+}
+
+.q5-color-b::after {
+  content:"B";
+}
+
+.q5-color-c::after {
+  content:"C";
+}
+
+@media screen and (max-width: 960px) {
+  .q5-color-a {background: #ff8400;}
+  .q5-color-c{background: #ff0000;}
+  .q5-color-a::after {content:"C";}
+  .q5-color-c::after {content:"A";}
+}
+
+
+/* Q6解答 */
+.q6-box{  
+  width: 300px;
+  height: 300px;
+}
+
+.q6-color-a{
+  background: #00ff51;
+}
+
+.q6-color-b{
+  background: #d4ff00;
+}
+
+.q6-color-c{
+  background: #ff00e1;
+}
+
+.q6-color-a::after {
+  content:"A";
+}
+
+.q6-color-b::after {
+  content:"B";
+}
+
+.q6-color-c::after {
+  content:"C";
+}
+
+@media screen and (max-width: 960px) {
+  .q6-color-a {background: #ff00e1;}
+  .q6-color-b {background: #00ff51;}
+  .q6-color-c {background: #d4ff00;}
+  .q6-color-a::after {content:"C";}
+  .q6-color-b::after {content:"A";}
+  .q6-color-c::after {content:"B";}
+}
+
+/* Q7解答 */
+.q7-box-a{
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  margin-bottom: 200px;
+}
+
+.q7-box-b{
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  margin-bottom: 200px;
+}
+
+.q7-box-c{
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+}
+
+@media screen and (max-width: 960px){
+  .q7-box-a {display: none;}
+}
+
+@media screen and (min-width: 960px){
+  .q7-box-b {display: none;}
+}
